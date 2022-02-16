@@ -13,7 +13,7 @@ const videos = [
         slug: 'basha-esports-video',
         role: 'Director, Head of Production',
         tools: ['Premiere Pro,  ', 'After Effects, ', 'Photoshop'],
-        desc: 'Our Marketing Video for the Basha Esports Organization <br /> <br /> When two of my friends created the esports club at our high school, they designated myself to lead the production team on the marketing video. I was minaly tasked with acquiring clips for the video, designing logo animations through After Effects, and overlooking the entire process of the video production. As a result of our marketing campaign, the club size increased by over 50 members in its inagrual year. As it stands today, Basha Esports is recognized as a Varsity-level sport in Arizona.',
+        desc: 'Our Marketing Video for the Basha Esports Organization <br /> <br /> When two of my friends created the esports club at our high school, they designated myself to lead the production team on the marketing video. I was mainly tasked with acquiring clips for the video, designing logo animations through After Effects, and overlooking the entire process of the video production. As a result of our marketing campaign, the club size increased by over 50 members in its inagrual year. As it stands today, Basha Esports is recognized as a Varsity-level sport in Arizona.',
         id: 1
     },
     {

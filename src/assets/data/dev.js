@@ -14,8 +14,8 @@ const dev = [
         desc: 'The page you are currently viewing! This website is responsive built with ReactJS. It allows for easy matienence and customization with components that are auto-generated from JSON data.',
         img: 'https://i.ibb.co/SKxLR3m/port.jpg',
         language: ['HTML', 'CSS', 'Javascript', 'ReactJS', 'SASS'],
-        source: '',
-        demo: ''
+        source: 'https://github.com/QuentinCurri/creative-portfolio-site',
+        demo: 'https://www.quentin-curry.me/'
     }
 ]
 

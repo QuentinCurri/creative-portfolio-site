@@ -41,7 +41,7 @@ const About = () => {
                     <a href='https://www.linkedin.com/in/qcurry/' target={'_blank'} className='footer-iconLinks-tag'><i className='bx bxl-linkedin'></i></a>
                     <br />
                     <div className="about-bio-icons-email"><a href='mailto:qcurry@usc.edu' className='email'>Email</a></div>
-                    <a rel='noopener' href="/Quentin.Curry.Resume.pdf" target={'_blank'}><button>Resume</button></a>
+                    <a rel='noopener' href="https://drive.google.com/file/d/1yrg7hD2lunHRL2tqB7oaRSmnw_wbZJnU/view?usp=sharing" target={'_blank'}><button>Resume</button></a>
                 </div>
                 </div>
             </div>
