@@ -1,0 +1,33 @@
+.footer {
+    font-size: 1.1rem;
+    background-color: $main-bg;
+
+    &-container {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &-title {
+        font-size: 3rem;
+    }
+
+    &-email {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    &-iconLinks {
+        font-size: 2rem;
+        padding: 5px;
+
+        &-tag {
+            padding: 5px;
+        }
+    }
+
+    &-copyright {
+        opacity: 40%;
+    }
+}
+

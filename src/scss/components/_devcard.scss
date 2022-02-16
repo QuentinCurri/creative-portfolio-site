@@ -1,0 +1,127 @@
+.dev-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-content {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 60px;
+        background-color: white;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: $box-shadow;
+        width: 80%;
+    }
+
+    &-image {
+        width: 90%;
+      position: absolute !important;
+      top: 0;
+      left: 0;
+    }
+
+    &-back {
+        position: absolute;
+      top: -1px;
+      right: -1px;
+      height: 110%;
+      width: 110%;
+      background: url("../../assets/images/test.svg");
+      background-size: cover;
+    }
+
+    &-text {
+        padding: 60px;
+        width: 50%;
+        z-index: 2;
+  
+        h2 {
+            margin-bottom: 15px;
+            font-size: 2rem;
+            color: #6a5f9b;
+            font-family: next-art-bold;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: #6a5f9b;
+            font-weight: 600;
+        }
+
+
+    }
+
+    &-languages {
+        display: flex;
+        flex-wrap: row;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    &-language {
+        border-radius: 4px;
+          border: solid 2px $main-color;
+          padding: 8px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          font-size: 1rem;
+          color: black;
+    }
+
+    &-links {
+        
+
+        button {
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            margin: 20px;
+            box-shadow: $box-shadow;
+            transition: all 0.35s ease;
+            background-color: #ADA7C9;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 1rem;
+            color: white;
+            font-weight: 600;
+
+            i {
+                margin-right: 10px;
+                font-size: 1.7rem;
+                vertical-align: middle;
+            }
+        }
+
+        button:hover {
+            background: #6a5f9b;
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
+              0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+    }
+}
+
+
+.dev-header {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        font-family: next-art-bold;
+        display: inline-block;
+        padding-bottom: 10px;
+        border-bottom: 5px $main-color solid;
+    }
+}

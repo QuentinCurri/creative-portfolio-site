@@ -1,0 +1,99 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #3C323E;
+    font-family: merit;
+
+    &-text {
+
+        margin-left: 10vw;
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 5.5rem;
+            color: #593F62;
+            animation: shadow 3s 3 alternate forwards;
+        }
+        &-tags {
+            transition: color, text-shadow;
+            -webkit-text-stroke: 1px white;
+            color: #3C323E;
+        }
+
+        &-tags:hover {
+            color: white;
+        }
+
+        &-divider {
+            color: white;
+        }
+        p {
+            display: inline;
+            font-size: 2.8rem;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        a:hover {
+            -webkit-text-stroke: 1px white;
+            color: #3C323E;
+        }
+    }
+
+    &-moving {
+        border-radius: 30% 70% 70% 30% / 51% 48% 52% 49%;
+        background-image: linear-gradient(#5C286E,#703066,#8C5383);
+        width: 30vw;
+        height: 50vh;
+        margin-right: 8vw;
+        animation: moving 8s ease-in-out infinite;
+    }
+}
+
+@keyframes moving {
+    0% {
+        border-radius: 30% 70% 70% 30% / 51% 48% 52% 49%;
+    }
+    25% {
+        border-radius: 45% 60% 55% 35% / 66% 28% 65% 49% ;
+    }
+    50% {
+        border-radius: 42% 87% 70% 42% / 51% 41% 60% 59% ;
+    }
+    75% {
+        border-radius: 62% 77% 85% 50% / 51% 35% 80% 65% ; 
+    }
+    100% {
+        border-radius: 30% 70% 70% 30% / 51% 48% 52% 49%;
+    }
+}
+
+@keyframes shadow {
+    0% {
+    }
+    25% {
+        color: #593F62;
+        text-shadow: 4px 5px 0px #7B6D8D;
+    }
+    50% {
+        text-shadow: 4px 5px 0px #7B6D8D,
+        8px 10px 0px #8499B1;
+    }
+    75% {
+        text-shadow: 4px 5px 0px #7B6D8D,
+        8px 10px 0px #8499B1,
+        13px 15px 0px #A5C4D4;
+    }
+    100% {
+        text-shadow: 4px 5px 0px #7B6D8D,
+        8px 10px 0px #8499B1,
+        13px 15px 0px #A5C4D4,
+        18px 20px 0px #E7EFC5;
+    }
+}

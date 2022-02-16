@@ -1,0 +1,107 @@
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    &-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        img {
+            width: 65%;
+            height: auto;
+            
+        }
+    }
+    &-bio {
+        width: 45%;
+        height: auto;
+        font-size: 1.5rem;
+
+        &-title {
+            font-size: 3rem;
+            font-weight: 1000;
+            text-align: center;
+            padding-bottom: 20px;
+            font-family: next-art-bold;
+        }
+
+        &-text {
+            padding: 15px;
+
+            a {
+                background: 
+                    linear-gradient(to right, rgba(102, 102, 102, .3), rgba(102, 102, 102, .3)),
+                    linear-gradient(to right, rgba(106, 95, 155, 1), rgba(106, 95, 155, 1));
+                background-size: 100% 0.1em, 0 0.1em;
+                background-position: 100% 100%, 0 100%;
+                background-repeat: no-repeat;
+                transition: background-size 400ms, color .4s ease;
+            }
+
+            a:hover,
+            a:focus {
+                background-size: 0 0.1em, 100% 0.1em;
+                color: #033d9b;
+            }
+        }
+
+        &-icons {
+            text-align: center;
+
+            i {
+                font-size: 2.5rem;
+                padding-bottom: 10px;
+            }
+
+            i:hover {
+                color: #6a5f9b;
+            }
+
+            &-email {
+                padding-bottom: 10px;
+            }
+
+            a.email {
+                position: relative;
+            }
+
+            a.email:before {
+                content: "";
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: #6a5f9b;
+                visibility: hidden;
+                transition: all 0.3s ease-in-out;
+            }
+
+            a.email:hover:before {
+                visibility: visible;
+                width: 100%;
+            }
+        }
+
+        button {
+            display: block;
+            margin-left: 39%;
+            text-decoration: none;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            cursor: pointer;
+            background-color: #ADA7C9;
+            font-size: 1.5rem;
+
+            transition: background-color 1s ease;
+        }
+
+        button:hover {
+                background-color: #6a5f9b;
+        }
+    }
+}

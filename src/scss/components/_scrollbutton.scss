@@ -1,0 +1,15 @@
+.button {
+    position: fixed; 
+   width: 100%;
+   left: 94%;
+   bottom: 39px;
+   height: 35px;
+   font-size: 4rem;
+   z-index: 1;
+   cursor: pointer;
+
+   .up-arrow {
+       height: 4.5rem;
+   }
+}
+
